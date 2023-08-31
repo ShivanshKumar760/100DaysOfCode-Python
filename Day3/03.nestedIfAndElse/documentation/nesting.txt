@@ -1,0 +1,60 @@
+In previous Module we learned about using the if and else statement to check if somebody is over 120 cm or not and allow them
+to actually purchase a ticket if they are over a certain age 
+
+Now in addition to the height,there can be other condition to check for ,namely
+their age that is if somebody is over 18 years old they
+should be paying adult price like 50 rs and if someone is
+below 18 years old they should be paying less like 20 rs 
+
+
+So now if have to consider the height and the age now how can we do that cause once one if condition is true we 
+cannot check a elif or else statment so what should we do 
+
+well one way is to use multiple if statement 
+
+1.Multiple if statment 
+
+age = int(input("Enter your age:"))
+height=int(input("Enter your height:"))
+
+if(height>=120):
+	print("Allowed to ride the coster")
+else:
+	print("Not allowed")
+if(age >=18):
+	print("pay 50 rs")
+else:
+	print("pay 20 rs")
+
+and this will work fine but it's not fully efficient cause it disturb the flow of execution
+
+So what we can do is we can take the 2nd pair of if else and put it inside the first pair like below :
+
+if(height>=120):
+	print("Allowed to ride the coster")
+	if(age >=18):
+		print("pay 50 rs")
+	else:
+		print("pay 20 rs")
+else:
+	print("Not allowed")
+
+
+and this is much more optimal cause we only have to check age if it is above  the permisable height or else we can just print not allowed 
+
+and this process is called nesting ie Nesting is when you write something inside of something else,and as we can see here we are nesting if statement inside another if statement
+
+Now what if the ticket conductor say woh wait a minute there is more to it and he say that people below 12 only have to pay 5 rs now in that case we can even nest elif statment inide it .
+
+
+
+if(height>=120):
+	print("Allowed to ride the coster")
+	if(age < 12):
+		print("pay 5 rs")
+	elif(age<=18):
+		print("pay 20 rs")
+	else:
+		print("pay 50 rs")
+else:
+	print("Not allowed")
