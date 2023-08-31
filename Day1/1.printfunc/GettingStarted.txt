@@ -1,0 +1,10 @@
+Printing to The console
+
+Now remember that the whole reason for learning to program is to able to tell computer ,what it needs to do and for it to follow/help us execute our task.
+
+So lets go ahead and tell the computer to do something and we are going to that by writing our first line of code,in this case we are creating something called a print function.
+
+	print()
+
+syntax:
+print(what need to be printed).

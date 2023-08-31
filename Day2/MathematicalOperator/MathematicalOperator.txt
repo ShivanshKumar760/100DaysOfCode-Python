@@ -1,0 +1,44 @@
+Mathematical Operator in Python Are :
+
+1)Addition ---> +
+2)Subtraction --> (-)
+3)Multiplication ---> *
+4)Division ---> / #this will always give float value
+5)Floor Division ---> // #this will give integer value
+  #terminating all trailing number after decimal
+
+6)Modulo ---> % #used to find Remainder
+7)Exponent ---> ** #to find exponential power of given number
+
+Operator Precedence: Just like BODMAS in Math We have 
+operator precedence in programming language 
+
+PEMDASLR:
+1)Paranthesis[()]
+2)Exponent(**)
+------------------------------------------------------
+3)Multipication=division=floor Division=Modulo There Operator Precedence is same.(*,/,//,%)
+
+So in case when a expression have two operator of same precedence we follow a rule of L To R ie the operator at
+the left most will pe operatedfirst.
+-------------------------------------------------------
+
+4)+ ,- these two also have same precedence
+
+
+Example :
+exp=3*3+3/3-3 in this multiplication and division have same precedence and addition and subtraction have same precedence so the operator at left most will be operated first which is * then division and then +
+
+9+3/3-3
+9+1-3
+10-3
+7
+
+and now if we use paranthesis like 
+
+exp=3*(3+3)/3-3 in this case first the bracket part will be solved first
+
+3*(6)/3-3 Now Multiplication 
+18/3-3 division
+6-3
+3

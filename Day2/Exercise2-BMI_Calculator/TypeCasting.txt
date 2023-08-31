@@ -1,0 +1,12 @@
+So in python or any programming language 
+when we divide anything via a float the answer will be a float
+
+
+a=5.0
+b=2
+fd=a//b #this will come out to be in float even though we use floor division and we know floor division provide result without decimal point but only when integer to integer is divided but here we divide a float value with 
+integer so answer will be float to convert it to whole number we will use
+
+int() ---function
+
+print(int(fd))#will give whole number. 

@@ -1,0 +1,25 @@
+So now  What is Type Error ?
+
+Lets understand using example,lets consider this peice of code.
+
+print(len(123))
+
+so here we are trying to print length of integer 123 and
+here we can see the length of number 123 is 3 it has 3 digit .But when we run the above peice of code it wil give 
+Error known as type error
+
+	Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    print(len(123))
+TypeError: object of type 'int' has no len() 
+
+
+something like this and this is because,len() function is 
+used to determine the lenght of string data type and not integer 
+
+So to avoid type error we need to do two things
+	1)determine the type of parameter passed in function
+	  using type() function
+
+	2)Do type conversion
+

@@ -1,0 +1,32 @@
+So in python or any programming language 
+when we divide anything via a float the answer will be a float
+
+
+a=5.0
+b=2
+fd=a//b #this will come out to be in float even though we use floor division and we know floor division provide result without decimal point but only when integer to integer is divided but here we divide a float value with 
+integer so answer will be float to convert it to whole number we will use
+
+int() ---function
+
+print(int(fd))
+
+
+
+So we can use int() function to convert decimal to a whole number but that will work only if we have a decimal value less than x.5 where x is any number cause above x.5 the round of will be y
+
+ie if we do int(2.5)---it will give 2 which is okay here 
+
+but  
+if we do int(2.6)---- it will give 2 which is wrong according to mathematical principle and we need to round it so the answer should be 3 and to do this type of calculation we use 
+
+
+Round Function--round()
+
+round(2.666666666666)=3
+now we can give another parameter in round ie rounding up to which decimal place
+
+round(x,n) where x is the number and 
+n is the decimal point till which we need to round 
+
+round(2.6666666666,2)=2.67

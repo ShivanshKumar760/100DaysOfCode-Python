@@ -1,0 +1,40 @@
+In Python Every data type or object has a type and there are some specific inbuilt function design for them and specific operation built for them so if we use a different data type for function f1 which is used for integer datatype then it will give type error 
+
+for example:
+
+print(len(123)) # will give an error as len() is used for #string so if we pass integer in it ,this will give error
+
+or 
+like :
+
+print("My age is "+19)
+#this will also give error cause although + operator works with both string and integer/numeric value 
+it cannot cancatenate string and integer 
+
+
+and so to avoid this error in program we do type checking before passing any parameter into function
+
+
+
+
+
+
+
+'type()' and 'isinstance()' in Python
+The variable types can be known using Python's own 'type()'. The 'type()' can be used at runtime for the debugging purpose to identify the exact variable types in the program. Let's look at the type of some variables in the example below.
+
+----------------------------------------------------------
+my_var = 12
+print(type(my_var))
+
+The above code will give output as 'int'. Since the data type of the variable is integer where 'type()' plays a role in identifying it.
+-----------------------------------------------------------
+
+The 'insinstance('obj','class')' of Python can be used to know whether the 'obj', which is the object is the instance of the class or not. The returned output value is boolean can be one of True or False.
+
+-----------------------------------------------------------
+my_var = "Hello"
+print(isinstance(my_var,str))
+
+The above code will give output as True. Since the data type of the variable is a string, where 'isinstance()' plays a role in identifying it
+-----------------------------------------------------------

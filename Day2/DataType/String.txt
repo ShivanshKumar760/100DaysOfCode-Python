@@ -1,0 +1,78 @@
+STRING:
+
+String 
+
+A python string is a sequence of character and each character can be individually 
+accessed using index.
+
+what is index?
+
+ans:-index are way to mark a element just like in text book or a note there is 
+a index to mark page number of a topic to aceess to those topic similarly in 
+programming we use indexing to access element like we used in array in C/C++
+
+int array_name={0,3,4,5,7};
+
+to access the element of the array we use indexing and Syntax to do that is :
+
+cout<<array_name[indexno.] 
+
+
+so in programming we follow 0 based idexing ie counting of element is started from 0
+
+{0 , 3 , 4 , 5 , 7}//element 
+[0   1   2   3   4]//indexno.
+
+cout<<array_name[1];
+
+output is :3
+
+
+Similarly in Python String are stored as individual character in contigous memory location
+ie continous memory bits ,with two way indexing ie in python we can do reverse 
+indexing which we were not able to do in C/C++
+
+lets understand this with an example:
+
+name="PYTHON"
+
+this name variable is holding a string type data so it will be stored in a continous 
+memory location
+
+-6  -5   -4  -3  -2   -1//reverse indexing 
+
+[P| Y  | T  | H | O   |N]
+
+0   1    2    3   4    5//forward indexing
+
+
+Thus ,we can acsess any character as <string name>[<indexno.>] example to acess the first character of string
+name="PYTHON" we'll write name[0] because the index of first character is 0(forward indexing) or -6(backward)
+
+
+In a string ,say name="PYTHON" of length ln,the valid indices are 0,1,2-----ln-1.That means ,if you try to give 
+something like :
+>>>name[ln]
+
+Python will give / return error like this :
+IndexError : String index out of range.
+
+the reason is obvious that in string there is no index equal to the length of the string,thus accessing 
+an element like this causes an error.
+
+Also another thing that we should /must know is that we cannot change the individual letters of a string in 
+place 
+by assignment because string are immutable and hence item assignment is not supported ie
+
+name="hello"
+name[0]="p"
+
+will cause an error like :
+
+TypeError:'str' object does not support item assignment
+
+However , we can assign to a string another string or an expression that returns a string using assignment
+eg:following statement is valid.
+
+name="hello"
+name="new"#string can be assigned expression that give strings

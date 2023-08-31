@@ -1,0 +1,7 @@
+in python we can convert type of one object's data type
+into another Data type using function
+
+like we can convert a integer into string using 
+str() function to access len() functio
+
+string into integer using int() or float()

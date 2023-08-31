@@ -1,0 +1,85 @@
+A conditional statement as the name suggests itself ,is used to handle conditions in your program . These statements the program while making the decision based on the conditions encountered by the program .Python has 4 key conditional statement :
+
+1)if statement
+2)if - else statement
+3)if -elif -else  statement.
+4)switch case
+
+
+I)if statement:
+------------------
+Python if statement is used for decision making operation it contains a body of code which runs only when the condition given in the (if)statement 
+is true .If the condition is false ,then it exits the block not executing the statement in (if)block.
+
+Syntax:
+
+if condition:
+	statement1 
+	statement2
+
+--------------------------------------------------------
+
+II)Else(if - else)
+------------------
+The else statement is used in correspondance with if statement so that when (if) statement result in false boolean value then a statement in againt of (if)block
+can be executed.
+
+The "else condition" is usually used when we have to judge one statement on the basis of other .If one statement goes wrong  then there should be another condition that should justify the statement or logic.
+
+Synatx:
+
+if condition1:
+	statement1
+
+else:
+	 statement2
+
+III)elif(else if)
+------------------
+So after using if and else suppose (if-block) statement result in false and we need to check another statement in the same program ,so in case like this we use elif statement .
+
+so when we need two check two or more statement we use elif statement.
+
+
+Syntax:
+
+if condition1:
+	statement 1
+
+elif condition2:
+	statement 2
+
+elif condition3:
+	statement 3
+
+else:
+	statement 
+
+
+IV)Switch Statement
+--------------------
+A switch statement is a multiway branch statement that compares the value of a variable to the values specifies in case statements
+
+Python language dosen't have a switch statement .
+
+
+Example:
+
+def Function(argument):
+	switch={
+	0:"this case is zero",
+
+	1:"this is case one",
+
+	2:"this is case two"
+
+	}
+	return switch.get(argument,"nothing")
+
+
+if __name__="__main__":
+	argument=1
+	print(Function(argument))
+
+But since we havent studied about dictionary or fnction till now we will avoid switch statement for now.
+

@@ -1,0 +1,69 @@
+1) String
+In Python, Strings are arrays of bytes representing Unicode characters. A string is a collection of one or more characters put in a single quote, double-quote or triple quote. In python there is no character data type, a character is a string of length one. It is represented by str class.
+ 
+Strings in Python can be created using single quotes or double quotes or even triple quotes.
+
+
+in String we can access a single element using indexing.
+
+Indexing:In python string a collection of character numbered from 0 to n-1 where n is the total number of character 
+
+with help of indexing we can access single character of the
+string
+
+ways to access a string character:
+	a="hello"
+	print(a[0])#will give "h"
+
+		or 
+	print("hello"[0])#will also give "h"
+----------------------------------------------------------
+
+NOTE:the len() function which we used in Day1 can only be
+used on string.
+
+
+
+----------------------------------------------------------
+Note – type() function is used to determine the type of data type.
+----------------------------------------------------------
+----------------------------------------------------------
+----------------------------------------------------------
+
+					Numeric
+In Python, numeric data type represent the data which has numeric value. Numeric value can be integer, floating number or even complex numbers. These values are defined as int, float and complex class in Python.
+----------------------------------------------------------
+Integers – This value is represented by int class. It contains positive or negative whole numbers (without fraction or decimal). In Python there is no limit to how long an integer value can be.
+
+Ex:3,4,5,6,66666666666666666
+
+Now in normal mathematics done on usinf pen and paper 
+when we write use number like 125346789569076 to make it more clear and to see to total number of digit we use 
+seprator like comma(,) to equally seprate the number for better clarification
+
+125,346,789,569,076
+
+but in python we cannot use comma(,) between number so we use underscore(_) between number and python interpret it as normal number.
+
+125,46,789,569,076--->in python-->125_346_789_569_076
+
+----------------------------------------------------------
+Float – This value is represented by float class. It is a real number with floating point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer may be appended to specify scientific notation.
+
+----------------------------------------------------------
+Complex Numbers – Complex number is represented by complex class. It is specified as (real part) + (imaginary part)j. For example – 2+3j
+
+----------------------------------------------------------
+Note – type() function is used to determine the type of data type.
+----------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+				Boolean
+
+Boolean Data Type has only two value ie:
+	True Or False
+these value always begins with Capital T and Capital F
+and they dont have any quatation mark at the start or end
+
+Note – type() function is used to determine the type of data type.
+

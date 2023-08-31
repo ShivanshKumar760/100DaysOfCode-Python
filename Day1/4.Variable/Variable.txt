@@ -1,0 +1,23 @@
+What is a variable?
+ Alright lets understand variable,
+ so lets take this line/code/statement into consideration
+
+ input("Enter your name:")--we save this in a file main.py
+
+ now if we run main.py using python command.
+ python3 main.py
+
+ OUTPUT:
+ Enter your name:Shivansh ---and as we hit enter here
+ the prompt will get exit and program will get over
+
+ and now the data we have inputed is stored in memory but it is lost cause we cannot access the memory without any named address or reference in case of python and thats why we cannot access this data in future.
+
+
+ and to prevent this we use variable,so variable act as reference to the value at a memory location m1
+
+
+
+ VARIABLE :- are way to store data or in python to refer a data stored in memory location to access it in future.
+
+   

@@ -1,0 +1,34 @@
+PYTHON INPUT FUNCTION
+
+In previous note we have seen how to use print() function to display a 
+statement on the console but what if we need to take input from the user from the console and then print the inputed data
+
+for that we use python inbuilt function--->input(<prompt info to user>)
+
+How to use input() function:
+
+1)just a simple input() function statement/command to execute:
+	->input("Enter your name:")
+	#will prompt user to Enter the name and then will disappear from screen althought it will get stored some where in memory we wont be able to access it in future cause we dont have any reference .
+
+
+	to solve this problem we have another method
+
+2)assiginig input() to a variable :
+	->name=input("Enter your name:")
+the data inputed here will get stored in memory and we will be able to acess it as we know that name will refer to iputed data memory address
+
+3)using input() in print() function:
+	-->print("Hello"+input("Whats your name?"))
+	                 or
+	   print("Whats your name :",input("Enter your name:"))
+
+first will direct / prompt the user to give input and then display the output like:
+
+Enter your name?Shivansh
+Whats your name:Shivansh
+
+
+
+
+NOTE:DEFFAULT VALUE OF INPUT IS STRING 

@@ -1,0 +1,17 @@
+So in Python we can assign variable any value using assignment operator "=".But Python also Offer augmented assignment arithmetic operator ,which combine the impact of an arithmetic operator with an 
+assignment operator ,e.g if we want to add value of b to value of a and assign the result to a ,then insted of writing 
+
+a=a+b
+
+we may write :
+a+=b
+
+
+Similarly:
+x+=y----->x=x+y
+x-=y----->x=x-y
+x*=y----->x=x*y
+x/=y----->x=x/y
+x//=y----->x=x//y
+x**=y----->x=x**y
+x%=y----->x=x%y
